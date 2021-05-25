@@ -1,10 +1,11 @@
 import React from "react";
 
 function Footer() {
-  const currentYear = new Date().getFullYear(); //dynamic year
+  const year = new Date().getFullYear();
   return (
     <footer>
-      <p>Copyright ⓒ {currentYear}</p>
+      <p>Hanwen Zhang, LMSW</p>
+      <p>Copyright ⓒ {year}</p>
     </footer>
   );
 }
